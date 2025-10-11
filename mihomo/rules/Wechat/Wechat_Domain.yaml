@@ -1,0 +1,24 @@
+payload:
+  # 微信主域
+  - "+.weixin.qq.com"
+  - "+.wxapp.tc.qq.com"
+  - "+.res.wx.qq.com"
+  - "+.mp.weixin.qq.com"
+  - "+.cube.weixinbridge.com"
+  - "+.mmbiz.qpic.cn"
+  - "+.wx.qlogo.cn"
+  - "+.marscdnbypass-wxapp.tc.qq.com"
+
+  # 微信支付相关
+  - "+.wechatpay.cn"
+  - "+.midas.gtimg.cn"
+  - "+.mixpay.wechat.com"
+
+  # 视频号 / 小视频
+  - "+.finderaly.video.qq.com"
+  - "+.sgshort.wechat.com"
+  - "+.sgminorshort.wechat.com"
+
+  # 地图 / 位置服务
+  - "+.lhp.map.qq.com"
+
