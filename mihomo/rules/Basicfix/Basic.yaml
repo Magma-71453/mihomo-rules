@@ -1,0 +1,10 @@
+payload:
+  
+  # cdn
+  - "cdn.jsdelivr.net"
+  
+  # ads-block
+  - "anti-ad.net"
+  
+  # Download
+  - "get.2sb.org"
