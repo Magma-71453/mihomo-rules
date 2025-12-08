@@ -1,1 +1,0 @@
-./mihomo convert-ruleset domain yaml yaml/Basic.yaml basic.mrs

@@ -1,19 +1,29 @@
 # mihomo-rules
 
-> ⚙️ 自用 Mihomo 规则集仓库
-
+> ⚙️ Mihomo 规则集仓库
+> 
 ## 📁 目录结构
 ```
-yaml     # 未编译的 YAML 规则文件
-mrs      # 转换后的 .mrs 二进制规则文件
-svg/      # 图标资源
+mihomo   #可执行文件
+rules/
+   独立规则集/
+      yaml     # 未编译的 YAML 规则文件
+      mrs      # 转换后的 .mrs 规则文件
+svg/     # 图标资源
 ```
 
 ## 🚀 使用说明
 
 ### 1. 编写规则文件
-在 `rule/` 中创建一个规则，例如：
-
+在 `rules/` 中创建一个规则集，例如：
+```floder
+Wechat/
+Game/
+claude/
+...
+```
+进入规则集内,如:
+cd Wechat
 #### 域名规则
 ```yaml
 payload:
@@ -37,6 +47,8 @@ payload:
 mihomo convert-ruleset ipcidr yaml rules/Wechat/Wechat_ip.yaml rules/Wechat/Wechat_ip.mrs
 mihomo convert-ruleset domain yaml rules/Wechat/Wechat_Domain.yaml rules/Wechat/Wechat_Domain.mrs
 ```
+[了解更多](https://bk.zbbp.net/index.php/archives/156/)
+
 
 ---
 

@@ -8,3 +8,6 @@ payload:
   
   # Download
   - "get.2sb.org"
+
+  # gh-proxy
+  - "gh-proxy.org"  
